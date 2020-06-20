@@ -14,6 +14,6 @@ public class ChatService {
 
     @RequestMapping(value = "/query", produces = Constants.APPLICATION_JSON, method = RequestMethod.POST)
     public void chatWithUser(@RequestBody UserContextInformation contextInformation) {
-        
+
     }
 }
